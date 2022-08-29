@@ -1,0 +1,5 @@
+def LeftRotation(d,arr):
+  for i in range(d):
+    a=arr.pop(0)
+    arr.append(a)
+   return arr
